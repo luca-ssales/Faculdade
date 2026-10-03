@@ -1,0 +1,14 @@
+let a,b,c,d;
+let saida = document.getElementById("saida");
+a=10;
+b=2;
+a+=b;
+b-=5;
+saida.innerHTML="a = "+a;
+saida.innerHTML+="<br>b = "+b;
+c=11;
+d=6;
+c%=d;
+d+=a;
+saida.innerHTML+="<br>c = "+c;
+saida.innerHTML+="<br>d = "+d;
